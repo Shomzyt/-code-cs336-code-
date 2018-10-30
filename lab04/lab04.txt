@@ -1,0 +1,2 @@
+1. For the most part, yes. Those are general standards to abide by. Bt there are some instances where I may want to do things my way.
+2. Some browsers interpret things differently. And Chrome especially allows for some things that wouldn't make sense in other browsers.

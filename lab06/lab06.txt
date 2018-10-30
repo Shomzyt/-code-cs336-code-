@@ -1,0 +1,8 @@
+6.1
+a.	I tested all the curl commands.
+	I tested head/get and post with chrome/devtools but nothing else. 
+b.	Error 404: Not Found.
+
+6.2
+a.	You can both get and post.
+b.	The form data is being sent to the server through the "Form Data" header, which has the three fields. It's then interpreted as a JSON and displayed.

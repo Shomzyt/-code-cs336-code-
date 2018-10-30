@@ -1,0 +1,13 @@
+body {
+  margin-left: 40%;
+  background-color: #00FFFF;
+}
+
+#inputElements {
+  display:flex;
+  width: 50%;
+}
+
+#inputElements > div {
+  flex: 1;
+}

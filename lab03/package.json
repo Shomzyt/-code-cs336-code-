@@ -1,0 +1,14 @@
+{
+  "name": "lab03",
+  "version": "1.0.0",
+  "description": "Lab 03 for CS 336 at Calvin College",
+  "main": "lab03.js",
+  "scripts": {
+    "start": "node lab03.js"
+  },
+  "author": "Oshomah Agbugui",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

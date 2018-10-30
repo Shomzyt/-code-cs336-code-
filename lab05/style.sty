@@ -1,0 +1,75 @@
+/*Declare our reused variables */
+
+greenBackground = #dddd88
+greenBorder = 1px solid #cccc33
+blueBackground = #ccccff
+blueBorder = 1px solid #8888bb
+smallFlex = 1 6 20%
+bigFlex = 3 1 60%
+headerBackground = #ffeebb
+headerBorder = 1px solid #eebb55
+margin = 1px
+smallPadding = 1em
+bigPadding = 2em
+
+body 
+    font: 24px Helvetica
+    background: #999999
+
+#main 
+    min-height: 800px
+    margin: 0px
+    padding: 0px
+    display: flex
+    flex-flow: row
+
+#main > article 
+    margin: margin
+    padding: bigPadding
+    border: greenBorder
+    background: greenBackground
+    flex: bigFlex
+    order: 2
+    font: italic 1.2em serif
+
+#main > nav 
+    margin: margin
+    padding: smallPadding
+    border: blueBorder
+    background: blueBackground
+    flex: smallFlex
+    order: 1
+    font: italic 1.2em "Fira", serif
+
+#main > aside 
+    margin: margin
+    padding: smallPadding
+    border: blueBorder
+    background: blueBackground
+    flex: smallFlex
+    order: 3
+    font: 1em "Trebuchet-MS", serif
+
+header, footer 
+    display: block
+    margin: margin
+    padding: smallPadding
+    min-height: 100px
+    border: 1px solid #eebb55
+    background: #ffeebb
+
+header 
+    font: italic 200% cursive
+
+footer 
+    font: italic .7em "Fira", serif
+
+/* Too narrow to support three columns */
+@media all and (max-width: 640px) 
+    #main, #page 
+        flex-direction: column
+
+    #main > nav, #main > aside, header, footer 
+        min-height: 50px
+        max-height: 50px
+    

@@ -1,0 +1,11 @@
+Oshomah Agbugui
+
+Answers:
+
+3.1
+	a. Node and express are both javascript companion type libraries. But Node provides an environment to run the javascript, while express is a node.js application framework which provides useful features for applications.
+	b. The package.json file provides some data about the project we are building in JSON format. It shows the author, a simple description and other details of the express package.
+
+3.2
+	a. The elements don't change at all on the client side. We only see them as they are stored in the public directory
+	b. The server doesn't keep serving this message. It's programmed to serve this message while requesting the root directory ('/')

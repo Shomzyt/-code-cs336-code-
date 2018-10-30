@@ -1,0 +1,174 @@
+body {
+  font: 16px "Comic Sans MS", Helvetica, sans-serif;
+  color: white;
+  background: url("blue.jpg");
+}
+
+p::before {
+  content: url("pin.png");
+}
+
+#first {
+  font-style: italic;
+}
+
+strong {
+  background-color: #dda; 
+  color: Green;
+  font: 200% serif;
+}
+
+.carrot {
+ color: orange; 
+}
+
+.spinach {
+ color: green; 
+}
+
+#first {
+ font-style: italic; 
+}
+
+.ref::before {
+  font-weight: bold;
+  color: navy;
+  content: "Reference: ";
+}
+
+h3 {
+  border-top: 3px solid #f77; 
+  background-color: #fee;     
+  color: #500;                
+  text-align: center;
+  clear: left;
+  margin-top: 2em;
+  margin-bottom: 3em;
+}
+
+#paragraphs {
+  counter-reset: mynum;
+}
+ 
+p.numbered:before {
+  content: "(" counter(mynum, upper-alpha) ") ";
+  counter-increment: mynum;
+  font-weight: bold;
+}
+
+img {
+  border: 2px solid #ccc;
+}
+
+p.remark {
+  border: 2px solid black;
+  padding: 4px;
+  margin-left: 24px;
+}
+
+ul {
+  counter-reset: oceannum;
+}
+
+li:before {
+  content: counter(oceannum, lower-roman) ": ";
+  counter-increment: oceannum;
+}
+
+.listHolder {
+  float: left;
+  border: 1em solid #aaa;
+  padding-right: 1em;
+  margin-right: 5em;
+}
+
+.left {
+  float: left;
+  width:50%;
+}
+
+#demo-table {
+  font: 100% sans-serif;
+  background-color: #fee;
+  border-collapse: collapse;
+  empty-cells: show;
+  border: 1px solid #aaa;
+}
+
+#demo-table > caption {
+  text-align: left;
+  font-weight: bold;
+  font-size: 200%;
+  border-bottom: .2em solid #000;
+  margin-bottom: .5em;
+}
+
+
+/* basic shared rules */
+#demo-table th,
+#demo-table td {
+  text-align: right;
+  padding-right: .5em;
+}
+
+#demo-table th {
+  font-weight: bold;
+  padding-left: .5em;
+}
+
+
+/* header */
+#demo-table > thead > tr:first-child > th {
+  text-align: center;
+  color: Green;
+}
+
+#demo-table > thead > tr + tr > th {
+  font-style: italic;
+  color: gray;
+}
+
+/* fix size of superscript */
+#demo-table sup {
+  font-size: 75%;
+}
+
+/* body */
+#demo-table td {
+  background-color: #ecc;
+  padding:.5em .5em .5em 3em;
+}
+
+#demo-table tbody th:after {
+  content: ":";
+}
+
+
+/* footer */
+#demo-table tfoot {
+  font-weight: bold;
+}
+
+#demo-table tfoot th {
+  color: Green;
+}
+
+#demo-table tfoot th:after {
+  content: ":";
+}
+
+#demo-table > tfoot td {
+  background-color: #ecc;
+}
+
+#demo-table > tfoot > tr:first-child td {
+  border-top: .2em solid #a77;
+}
+
+#demo-table th {
+  color: black;
+}
+
+#demo-table td {
+  color: black;
+}
