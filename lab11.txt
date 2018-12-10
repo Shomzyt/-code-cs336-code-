@@ -1,0 +1,9 @@
+Exercise 11.1
+
+a.	The development config has a separate server on a separate port and it doesn't uglify, extract text, or do auto-prefixing. The development code is much better to develop with and easier to read and work, while the production code is fitting for sending over the internet quickly.
+b.	I've uglified, removed hot module replacement, extracted text, added auto-prefixing, combined all files into one .js file.
+
+Exercise 11.2
+
+a.	The platform can host the website, so that anyone with internet access can go there even if the server isn't open on the local machine. This makes it much more accessible and allows us to not have to have a server running at all times.
+b.	It can install the application because it recognizes many common types of programs. For example it recognizes tha	t our program is a node.js app, and so it knows to install using npm and run in that way.
