@@ -1,0 +1,13 @@
+Oshomah Agbugui
+
+a.
+	i.		The component structure consists of a nested hierarchy of smaller components. Being composable means being self contained, stateless, and without inheritance.
+	ii.		It adds XML syntax to JavaScript.
+	iii.	React is safe with respect to XSS because it won't render the markdown text as HTML unless we tell it to.
+	iv.		Data flows through the comments through the props system. The data is loaded as JSON from a file. Then sent hrough the hierarchy till it reaches the Comment object where it's shown. It's then created in the comment form, and passed through the state. Once it's created, it modifies the JSON file and the display is refreshed. It should then show the new data
+	v. 		Props stores unchangeable data which the components need. State stores changeable data.
+b.
+	i.		It automatically reloads and re-renders the changes. There's a script running that reloads the page.
+	ii.		Because it automatically re-renders as a result of the AJAX call.
+	iii.	Having stateless components means we don't need to deal with keeping it up-to-date.
+	iv.		No, not really. It will at least not reject another one because it's using the same time as the ID.

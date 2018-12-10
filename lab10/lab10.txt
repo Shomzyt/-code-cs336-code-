@@ -1,0 +1,13 @@
+Oshomah Agbugui
+
+Exercise 10.1
+
+	a.	It's certainly less rigid. We can store most data without tightly schemas. Fr example, not every document needs same keys, so we can store data dynamically. We can also add extra keys and values to a document. Otherwise, MongoDB can do the same type of querying as SQL.
+	b.	Running MongoDB locally means people can only use the database when my device is running the server. It's not accessible to people in the way that it would be with the cloud service.
+	c.	No. It isn't appropriate to use with paying customers, because it's not really accessible, doesn't give predictable performance, or have much security.
+
+Exercise 10.2
+
+	a.	I found no difference between the two. Both were capable of interacting with the remote database, so it didn't matter.
+	b.	If I altered or deleted a document, I was able to see the result of that operation almost instantly on the client. Because the code pulls from the mLab database, which has been updated. 
+	c.	The comments app is simple enough for either SQL or noSQL. Since we only hold comments with a title and an author, it doesn't matter which one we use.

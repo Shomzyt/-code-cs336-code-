@@ -1,0 +1,37 @@
+body {
+  margin-left: 10%;
+  background: #454545;
+  color: #dfdfdd;
+}
+
+div#inputElements {
+  display:flex;
+  /*width: 50%;*/
+  padding-bottom:  1em;
+}
+
+div.leftSide {
+  flex: 1;
+}
+
+input {
+	margin-bottom: 1em;
+}
+
+div.rightSide {
+	flex: 1;
+}
+
+h1 {
+	text-align: center;
+	font-size: 2.5em;
+}
+
+div.personList {
+	text-align: center;
+	background-color: #454545;
+	padding:  2em;
+}
+div.person {
+	padding: 1em;
+}

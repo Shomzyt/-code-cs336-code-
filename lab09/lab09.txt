@@ -1,0 +1,17 @@
+Exercise 9.1
+
+	a. Everything's in a compact file now. This significantly reduces load time. The new bundle file is 6 KB on my machine.
+	b. It translated all the JSX code into Javascript so the browser doesn't have to.
+	c. It can be loaded in there, since we're just giving it the the directory as the path for static files.
+	d. Loads up the JSX code.
+
+Exercise 9.2
+
+	a. The new index.html is the same, but the new bundle.js is quite large. There are also some imports near start of the code for each module.
+	b. It allows the import to take place in the actual file that needs them. In addition, it ensures that each module loads only what's necessary.
+	c. It only loads the index.html and the bundle.js. The CSS file isn't loaded.
+
+Exercise 9.3
+
+	a. The development server seems to reload the index.html and bundle.js in real-time whenever modified, allowing us to see any changes we make. The localhost:3000 retains the original environment when the server was started.
+	b. It's frustrating but it seems worth it to have it. If we want a stable build version while also developing a new one, we can do that now.

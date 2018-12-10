@@ -1,0 +1,19 @@
+Exercise 13.1
+
+a.	It allows us to specify which react elements to show and when.
+
+b.	Depends. For this SPA, a browser history is better. We get cleaner URLs this way.
+
+c.	It should be because we're sending different routes which might not be implemented. We need a default route handler.
+
+
+Exercise 11.2
+
+a.	The new CommentEdit component has a state which stores the author and the text. CommentBox holds a list of all the comments and also a flag which is true when mounted successfully.
+
+b.	The PUT and DELETE commands command the router to go to the homepage. Which is what the cancel button does, except that it oes the HTTP command first.
+
+c.	One difference is that the Link knows when the thing it is linked to is active 
+
+Heroku Link:
+ https://ccs336production11.herokuapp.com/
