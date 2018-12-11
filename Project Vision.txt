@@ -1,4 +1,0 @@
-Project Vision: Soda History inventory application
-The Soda Across Ages app is a single page application that’s designed for people to identify the different types of tasty beverages that have been invented since the idea first started It should guide users on a journey of understanding the many iterations and designs that soda bottles went through before arriving at their current, modern state. It should feel like a section of a museum experience and will take up the format of an inventory.
-The application would allow users to identify an exhibited item's origin, design, manufacturer, description, external sources of information, and will have a list of other related items.
-
