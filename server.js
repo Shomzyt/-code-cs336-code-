@@ -62,7 +62,7 @@ app.post('/api/comments', function(req, res) {
 });
 
 // lab10code
-MongoClient.connect('mongodb://cs336:' + password + '@ds119164.mlab.com:19164/cs336', function (err, client) {
+MongoClient.connect('mongodb://cs336:' + password + '@ds227674.mlab.com:27674/cs336', function (err, client) {
   if (err) {
     throw err
     }
