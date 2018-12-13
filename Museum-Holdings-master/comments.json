@@ -1,0 +1,32 @@
+[
+    {
+        "id": "random_integer",
+        "name": "Item_name",
+        "category": "Item_category",
+        "origin": "location_created",
+        "description": "Item_description",
+        "manufacturer": "company_name",
+        "manufactureDate": "Item_age",
+        "significance": "historical_impact",
+    },
+    {
+        "id": 1420070400000,
+        "author": "Paul O’Shannessy",
+        "text": "React is *great*!"
+    },
+    {
+        "id": 1479492627318,
+        "author": "Lizard Man",
+        "text": "<3 Wrath of the lizard!"
+    },
+    {
+        "id": 1540231671517,
+        "author": "Derek",
+        "text": "Megan"
+    },
+    {
+        "id": 1541008354053,
+        "author": "Abe",
+        "text": "Honest"
+    }
+]
